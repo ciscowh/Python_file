@@ -1,5 +1,5 @@
 def copyfile():
-    old_file=input('请输入需要备份的文件名')
+    old_file=input('请输入需要备份的文件名:')
     file_list=old_file.split('.')
     new_file=file_list[0]+'_备份.'+file_list[1]
     old_f=open(old_file,'r')
