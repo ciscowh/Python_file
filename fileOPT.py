@@ -1,0 +1,20 @@
+# fobj=open('./test.txt','w',encoding='utf-8')
+# fobj.write('hello world \n')
+# fobj.write('hello python')
+# fobj.close()
+#二进制的形式去写数据
+# fobj=open('./test.txt','ab')
+# fobj.write('hello world\n'.encode('utf-8'))
+# fobj.write('12112121212\n'.encode('utf-8'))
+# fobj.close()
+# f=open('./test.txt','rb')
+# data=f.read()
+# print(data)
+# print(f.read())
+# print(f.read(12))
+# print(f.readlines())
+
+# print(f.read())
+# f.close()
+with open('./test.txt','r') as f:
+     print(f.read())
